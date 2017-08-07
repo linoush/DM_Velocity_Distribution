@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# Empirical Velocity Distribution of Dark Matter
+### Work published as arXiv:1708.XXXXX, by Jonah-Herzog-Arbeitman, Mariangela Lisanti, and Lina Necib
 
-You can use the [editor on GitHub](https://github.com/linoush/DM_Velocity_Distribution/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+In our paper, we empirically derive the velocity distribution of dark matter based on that of metal poor stars. We perform various cuts on these stars:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Quality cuts as discussed in the paper
+* abs(z)>1.5 kpc
+* Either [Fe/H] <-1.5 or [Fe/H]<-1.8.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/linoush/DM_Velocity_Distribution/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We find two velocity distributions of these metal poor stars, one for each of the [Fe/H] cuts. The files are in this repository.
