@@ -1,3 +1,27 @@
+# DARK MATTER IN DISEQUILIBRIUM: THE LOCAL VELOCITY DISTRIBUTION FROM SDSS-GAIA
+## Work published as [arXiv:], by Lina Necib, Mariangela Lisanti, and Vasily Belokurov
+
+### Abstract:
+
+
+### Datasets:
+
+This is the most up-to-date source for the velocity distribution. We provide the following functions:
+* f(v) total: this is the velocity distribution in heliocentric frame that sums both the substructure and halo components with their relative contribution.
+* f(v) substructure: this is the substructure component's velocity distribution in heliocentric frame, normalized to 1.
+* f(v) halo: this is the halo component's velocity distribution in heliocentric frame, normalized to 1.
+* f(v) SHM: this is the standard halo model's velocity distribution in heliocentric frame, normalized to 1.
+* g(vmin): The integral of f(v)/v in in heliocentric frame of the total distribution.
+
+
+
+
+
+
+
+
+
+
 # Empirical Velocity Distribution of Dark Matter
 ## Work published as [arXiv:1708.03635](https://arxiv.org/abs/1708.03635), by Jonah-Herzog-Arbeitman, Mariangela Lisanti, and Lina Necib
 
