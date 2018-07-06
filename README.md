@@ -8,7 +8,7 @@ For any questions, please email lnecib at caltech dot edu.
 
 ### Datasets:
 
-This is the most up-to-date source for the velocity distribution. We provide the following functions:
+These files are the most up-to-date source for the velocity distribution. We recommend using them over the analysis from [arXiv:1708.03635]. We provide the following functions:
 * f(v) total: this is the velocity distribution in heliocentric frame that sums both the substructure and halo components with their relative contributio, normalized to 1.
 * f(v) substructure: this is the substructure component's velocity distribution in heliocentric frame, normalized to 1.
 * f(v) halo: this is the halo component's velocity distribution in heliocentric frame, normalized to 1.
@@ -34,3 +34,7 @@ The local velocity distribution of dark matter plays an integral role in interpr
 ### Datasets:
 
 We find two velocity distributions of these metal poor stars, one for each of the \[Fe/H\] cuts. The files are in this repository and can be obtained by forking/downloading this repository.
+
+heliocentric_velocity_feH15.txt : Analysis with [Fe/H]<-1.5
+
+heliocentric_velocity_feH18.txt : Analysis with [Fe/H]<-1.8
