@@ -13,7 +13,7 @@ This is the most up-to-date source for the velocity distribution. We provide the
 * f(v) substructure: this is the substructure component's velocity distribution in heliocentric frame, normalized to 1.
 * f(v) halo: this is the halo component's velocity distribution in heliocentric frame, normalized to 1.
 * f(v) SHM: this is the standard halo model's velocity distribution in heliocentric frame, normalized to 1.
-* g(vmin): The integral of f(v)/v in in heliocentric frame of the total distribution.
+* g(vmin): The integral of f(v)/v in the heliocentric frame of the total distribution.
 
 
 
