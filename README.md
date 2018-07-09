@@ -5,10 +5,13 @@ For any questions, please email lnecib at caltech dot edu.
 
 ### Abstract:
 
+We use the distribution of accreted stars in SDSS-Gaia DR2 to demonstrate that the local dark matter halo may not be in equilibrium and that a non-trivial fraction is in substructure. Using a mixture likelihood analysis, we separate the contributions of an old, isotropic stellar halo and a younger anisotropic population. The latter dominates and is uniform within Galactocentric radii of 7.5–10 kpc and |z| > 2.5 kpc. It can be explained as the tidal debris of a disrupted massive satellite on a highly radial orbit, and is consistent with mounting evidence from recent studies. Simulations that track the tidal debris from such mergers find that the dark matter traces the kinematics of its stellar counterpart. If so, our results indicate that the majority of the local dark matter that is sourced by luminous satellites is in kinematic substructure referred to as debris flow. These results challenge the Standard Halo Model, which is highly discrepant with the distribution recovered from the stellar data, and have important ramifications for the interpretation of direct detection experiments.
 
 ### Datasets:
 
-These files are the most up-to-date source for the velocity distribution. We recommend using them over the analysis from [arXiv:1708.03635]. We provide the following functions:
+These files are the most up-to-date source for the velocity distribution. We recommend using them over the analysis from [arXiv:1708.03635]. Note that we use V,pec = (U, V, W ) = (8.50,13.38, 6.49) km/s (Coskunoglu, B., Ak, S., Bilir, S., et al. 2011, MNRAS, 412, 1237) and the local circular velocity v = 235 km/s. For the Galctocentric velocities, please use the best fit Gaussians in the paper.
+
+We provide the following functions:
 * f(v) total: this is the velocity distribution in heliocentric frame that sums both the substructure and halo components with their relative contributio, normalized to 1.
 * f(v) substructure: this is the substructure component's velocity distribution in heliocentric frame, normalized to 1.
 * f(v) halo: this is the halo component's velocity distribution in heliocentric frame, normalized to 1.
