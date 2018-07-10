@@ -1,5 +1,5 @@
 # DARK MATTER IN DISEQUILIBRIUM: THE LOCAL VELOCITY DISTRIBUTION FROM SDSS-GAIA
-## Work published as [arXiv:], by Lina Necib, Mariangela Lisanti, and Vasily Belokurov
+## Work published as [arXiv:1807.02519](https://arxiv.org/abs/1807.02519), by Lina Necib, Mariangela Lisanti, and Vasily Belokurov
 
 For any questions, please email lnecib at caltech dot edu. 
 
@@ -9,7 +9,7 @@ We use the distribution of accreted stars in SDSS-Gaia DR2 to demonstrate that t
 
 ### Datasets:
 
-These files are the most up-to-date source for the velocity distribution. We recommend using them over the analysis from [arXiv:1708.03635]. Note that we use V,pec = (U, V, W ) = (8.50,13.38, 6.49) km/s (Coskunoglu, B., Ak, S., Bilir, S., et al. 2011, MNRAS, 412, 1237) and the local circular velocity v = 235 km/s. For the Galctocentric velocities, please use the best fit Gaussians in the paper.
+These files are the most up-to-date source for the velocity distribution. We recommend using them over the analysis from [arXiv:1708.03635]. Note that we use V,pec = (U, V, W ) = (8.50,13.38, 6.49) km/s (Coskunoglu, B., Ak, S., Bilir, S., et al. 2011, MNRAS, 412, 1237) and the local circular velocity v = 235 km/s. For the Galctocentric velocities, please use the best fit functions in the paper.
 
 We provide the following functions:
 * f(v) total: this is the velocity distribution in heliocentric frame that sums both the substructure and halo components with their relative contributio, normalized to 1.
