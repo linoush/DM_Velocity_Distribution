@@ -19,13 +19,14 @@ We provide the following functions:
 * g(vmin): The integral of f(v)/v in the heliocentric frame of the total distribution.
 
 #### Note:
-(September 26, 2018) An change to the relative contributions of the substructure and the virialized component has been updated in the f(v) total. In upcoming work (Necib, Lisanti, Garrisson-Kimmel et al. 2018) we will show how to obtain the contribution of mergers relative to the virialized component. This will include an error band. The result is as follows:
+(September 26, 2018) 
+A change to the relative contributions of the substructure and the virialized component has been updated in the f(v) total. In upcoming work (Necib, Lisanti, Garrisson-Kimmel et al. 2018) we will show how to obtain the contribution of mergers relative to the virialized component. This will include an error band. The result is as follows:
 
 f_total(v) = c_halo f_halo(v) +   c_subs f_subs (v),
 
 where c_subs/c_halo = 0.23^{+0.43}_ {-0.15}.
 
-f(v) total currently only includes the average value. To obtain the full error band, one needs to sub the separate velocity distribution components.
+f(v) total currently only includes the average value. To obtain the full error band, one needs to add the separate velocity distribution components.
 
 
 
