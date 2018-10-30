@@ -12,14 +12,21 @@ We use the distribution of accreted stars in SDSS-Gaia DR2 to demonstrate that t
 These files are the most up-to-date source for the velocity distribution. We recommend using them over the analysis from [arXiv:1708.03635]. Note that we use V,pec = (U, V, W ) = (8.50,13.38, 6.49) km/s (Coskunoglu, B., Ak, S., Bilir, S., et al. 2011, MNRAS, 412, 1237) and the local circular velocity v = 235 km/s. For the Galctocentric velocities, please use the best fit functions in the paper.
 
 We provide the following functions:
-* f(v) total: this is the velocity distribution in heliocentric frame that sums both the substructure and halo components with their relative contributio, normalized to 1.
+* f(v) total: this is the velocity distribution in heliocentric frame that sums both the substructure and halo components with their relative contributions, normalized to 1.
 * f(v) substructure: this is the substructure component's velocity distribution in heliocentric frame, normalized to 1.
 * f(v) halo: this is the halo component's velocity distribution in heliocentric frame, normalized to 1.
 * f(v) SHM: this is the standard halo model's velocity distribution in heliocentric frame, normalized to 1.
 * g(vmin): The integral of f(v)/v in the heliocentric frame of the total distribution.
 
+#### Note:
+(September 26, 2018) 
+A change to the relative contributions of the substructure and the virialized component has been updated in the f(v) total. In upcoming work (Necib, Lisanti, Garrisson-Kimmel et al. 2018) we will show how to obtain the contribution of mergers relative to the virialized component. This will include an error band. The result is as follows:
 
+f_total(v) = c_halo f_halo(v) +   c_subs f_subs (v),
 
+where c_subs/c_halo = 0.23^{+0.43}_ {-0.15}.
+
+f(v) total currently only includes the average value. To obtain the full error band, one needs to add the separate velocity distribution components.
 
 
 
