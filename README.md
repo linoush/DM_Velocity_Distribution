@@ -20,7 +20,7 @@ We provide the following functions:
 
 #### Note:
 (October 30, 2018) 
-A change to the relative contributions of the substructure and the virialized component has been updated in the f(v) total. In arXiv:1810.XXXXX (Necib, Lisanti, Garrisson-Kimmel et al. 2018) we show how to obtain the contribution of mergers relative to the virialized component. This will include an error band. The result is as follows:
+A change to the relative contributions of the substructure and the virialized component has been updated in the f(v) total. In arXiv:1810.XXXXX (Necib, Lisanti, Garrisson-Kimmel et al. 2018) we show how to obtain the contribution of mergers relative to the virialized component. This includes an error band. The result is as follows:
 
 f_total(v) = c_halo f_halo(v) +   c_subs f_subs (v),
 
