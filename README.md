@@ -22,14 +22,11 @@ We provide the following functions:
 (October 30, 2018) 
 A change to the relative contributions of the substructure and the virialized component has been updated in the f(v) total. In arXiv:1810.XXXXX (Necib, Lisanti, Garrisson-Kimmel et al. 2018) we show how to obtain the contribution of mergers relative to the virialized component. This includes an error band. The result is as follows:
 
-f_total(v) = c_halo f_halo(v) +   c_subs f_subs (v),
+![alt text](https://latex.codecogs.com/gif.latex?f_\mathrm{dm}(v)&space;=&space;N&space;\left(&space;\xi_\mathrm{*,&space;halo}&space;f_\mathrm{halo}(v)&space;&plus;&space;\frac{c_\mathrm{subs}}{c_\mathrm{halo}}&space;\xi_\mathrm{*,&space;subs}&space;f_\mathrm{subs}(v)&space;\right))
 
-where c_subs = 0.42^{+0.26}_ {-0.22}. The normalizations are defined as c_halo + c_subs = 1. 
+where ![alt text](https://latex.codecogs.com/gif.latex?\frac{c_{\rm{subs}}}{c_{\rm{halo}}}&space;=&space;0.23^{&plus;0.43}_{-0.15}), and N is a normalization factor. This leads to the substructure contributing ![alt text](https://latex.codecogs.com/gif.latex?42&space;^{&plus;26}_{-22}\%) % of the total dark matter contribution.
 
 f(v) total currently only includes the average value. To obtain the full error band, one needs to add the separate velocity distribution components.
-
-
-
 
 
 
